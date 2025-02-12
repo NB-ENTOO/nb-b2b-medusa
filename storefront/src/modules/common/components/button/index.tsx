@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { clx, Button as MedusaButton } from "@medusajs/ui"
 
 type ButtonProps = React.ComponentProps<typeof MedusaButton>

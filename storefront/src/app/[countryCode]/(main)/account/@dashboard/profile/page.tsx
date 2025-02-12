@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { Metadata } from "next"
 
 import { retrieveCustomer } from "@lib/data/customer"

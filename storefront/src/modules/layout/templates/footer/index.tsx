@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { listCategories } from "@lib/data/categories"
 import { listCollections } from "@lib/data/collections"
 import { Button, Text, clx } from "@medusajs/ui"

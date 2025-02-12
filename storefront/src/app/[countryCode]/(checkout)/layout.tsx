@@ -14,7 +14,7 @@ export default function CheckoutLayout({
         <nav className="flex h-full items-center content-container justify-between">
           <LocalizedClientLink className="hover:text-ui-fg-base" href="/">
             <h1 className="text-base font-medium flex items-center">
-              <LogoIcon className="inline mr-2" />
+              <LogoIcon height={15} width={120} />
              
             </h1>
           </LocalizedClientLink>
