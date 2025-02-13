@@ -39,7 +39,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "thebodyshop.com",
+        hostname: "www.thebodyshop.com",
       },
     ],
   },
