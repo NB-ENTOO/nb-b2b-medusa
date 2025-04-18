@@ -18,6 +18,7 @@ build
 .cache
 
 .yarn/*
+yarn.lock
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
