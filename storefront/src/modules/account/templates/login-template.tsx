@@ -51,27 +51,13 @@ const LoginTemplate = ({ regions }: { regions: HttpTypes.StoreRegion[] }) => {
   }
 
   return (
-    <div className="grid grid-cols-1 small:grid-cols-2 gap-2 m-2 min-h-[80vh]">
-      <div className="flex justify-center items-center bg-neutral-100 p-6 small:p-0 h-full">
+    <div className=" w-full flex-col justify-center flex items-center bg-neutral-100 grid-cols-1 small:grid-cols-2 gap-2 my-2 min-h-screen">
+      <div className=" content-container max-w-3xl mx-auto">
         {currentView === LOGIN_VIEW.LOG_IN ? (
           <Login setCurrentView={updateView} />
         ) : (
           <Register setCurrentView={updateView} regions={regions} />
         )}
-      </div>
-
-      <div className="relative">
-        <Image
-          src="/account-block.jpg"
-          alt="Login banner background"
-          className={clx(
-            "object-cover transition-opacity duration-300 w-full h-full",
-            imageLoaded ? "opacity-100" : "opacity-0"
-          )}
-          fill
-          quality={100}
-          priority
-        />
       </div>
     </div>
   )

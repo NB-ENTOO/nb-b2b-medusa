@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 import { clx, Button as MedusaButton } from "@medusajs/ui"
 
 type ButtonProps = React.ComponentProps<typeof MedusaButton>
@@ -18,7 +20,7 @@ const Button = ({
 
   return (
     <MedusaButton
-      className={`!rounded-full text-sm font-normal ${className} ${classNameProp}`}
+      className={`!rounded-full text-sm px-5 py-2 font-normal ${className} ${classNameProp}`}
       variant={variant}
       {...props}
     >
