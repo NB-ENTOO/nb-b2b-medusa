@@ -1,12 +1,12 @@
 //@ts-nocheck
 
-import { listCategories } from "@lib/data/categories"
-import { listCollections } from "@lib/data/collections"
+import { listCategories } from "@/lib/data/categories"
+import { listCollections } from "@/lib/data/collections"
 import { Button, Text, clx } from "@medusajs/ui"
 
-import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import LogoIcon from "@modules/common/icons/logo"
-import MedusaCTA from "@modules/layout/components/medusa-cta"
+import LocalizedClientLink from "@/modules/common/components/localized-client-link"
+import LogoIcon from "@/modules/common/icons/logo"
+import MedusaCTA from "@/modules/layout/components/medusa-cta"
 
 export default async function Footer() {
   const { collections } = await listCollections({

@@ -3,8 +3,8 @@
 "use client"
 
 import { Heading } from "@medusajs/ui"
-import Button from "@modules/common/components/button"
-import LogoIcon from "@modules/common/icons/logo"
+import Button from "@/modules/common/components/button"
+import LogoIcon from "@/modules/common/icons/logo"
 import Image from "next/image"
 
 const Hero = () => {
